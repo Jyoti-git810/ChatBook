@@ -1,0 +1,16 @@
+.sidebar_Chat {
+    display: flex;
+    align-items: center;
+    width: 43%;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.sideBar_ChatData{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sideBar_ChatData p,h3{
+    margin: 0;
+}

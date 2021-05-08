@@ -1,0 +1,32 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    flex: 0.35;
+}
+.sidebar_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid lightgray;
+}
+.sidebar_search{
+    display: flex;
+    align-items: center;
+    height: 36px;
+    padding: 10px;
+    background: #f6f6f6;
+}
+.sidebar_searchConatiner{
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    height: 35px;
+    width: 100%;
+    background: white;
+    border-radius: 20px;
+}
+.sidebar_searchConatiner>input{
+    outline: none;
+    border: none;
+    margin-left: 10px;
+}
